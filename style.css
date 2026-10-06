@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: salmon;
+    transition: 3s;
+    box-shadow: 10px 10px 10px red;
+}
+
+.box:hover {
+    background-color: blue;
+    /* transform: translateX(100px); */
+    /* transform: translate(200px,200px); */
+    transform: rotate(135deg);
+    transform: scale(1.5);
+}
